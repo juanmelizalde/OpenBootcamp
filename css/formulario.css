@@ -1,0 +1,246 @@
+main{
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+.container{
+    
+    width: 100%;
+    max-width: 416px;
+    margin: auto;
+}
+h2{
+    margin-bottom: 26px;
+    font: bold 24px/29px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.continuar{
+    display: flex;
+    margin: 0 0 40px;
+}
+.btn__google{
+    padding-left: 3px;
+    background-color: #1a73e8;
+    border: none;
+    width:250px;
+    height: 40px;
+    border-radius:5px;
+    margin-right:20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.btn__google:hover{
+opacity: 0.75;
+}
+.btn__google span{
+    margin-left: 30px;;
+    color: white;
+}
+.btn__google picture{
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+}
+.btn__google picture img{
+    width: 24px;
+    height: 24x;
+    margin-top: 6px;
+}
+hr{
+    margin-bottom: 20px;
+    padding: 0;
+    overflow: visible;
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    color: #6e6d7a;
+    text-align: center;
+}
+hr:after {
+    content: 'Or';
+      display: inline-block;
+      position: relative;
+      top: -7px;
+      padding: 0 16px;
+      background: #fff;
+      font: normal 14px/14px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .btn__tiwter{
+    width: 48px;
+    height: 40px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px
+  }
+  
+  .btn__tiwter picture{
+    width: 36px;
+    height: 36px;
+    background-color: #f2f2f2;
+    border-radius: 2px;
+    margin-right: 30px;
+}
+.btn__tiwter picture img{
+    width: 16px;
+    height: 16PX;
+    margin-top: -3px;
+    margin-right: 2px;
+    fill: currentColor;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.texbox{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    line-height: 1;
+    vertical-align: baseline;
+    gap: 30px;
+}
+.texbox label{
+    display: block;
+    margin: 14px 0 4px;
+    color: #000000;
+    font: bold 15px/24px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.texbox label input{
+    width: 85%;
+    height: 18px;
+    padding: 10px 16px;
+    background-color:#f3f3f4;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+}
+.texbox label input:focus{
+     box-shadow: 1px 1px 1px 5px #f3dbdb;
+     border:none;
+     border: 1px solid #f89f9f;
+     background-color:white;
+}
+.texbox label input:hover{
+    background-color:white;
+    box-shadow:1px 1px 8px 3px #f5e7e7;
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    margin-top: 30px;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    line-height: 1;
+    vertical-align: baseline;
+}
+.mail label{
+    display: block;
+    margin: 14px 0 4px;
+    color: #000000;
+    font: bold 15px/24px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+}
+.mail label input{
+    width: 93%;
+    margin-right: 8px;
+    height: 18px;
+    padding: 10px 16px;
+    background-color:#f3f3f4;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    margin-bottom:20px;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}  
+.mail label #password{
+    font-size: 16px;
+}
+
+.mail label input:focus{
+    box-shadow: 1px 1px 1px 5px #f3dbdb;
+    border:none;
+    border: 1px solid #f89f9f;
+    background-color:white;
+}
+.mail label input:hover{
+   background-color:white;
+   box-shadow:1px 1px 8px 3px #f5e7e7;
+}
+.checkbox {
+    display: flex;
+    flex-direction:row;
+    margin-top: 20px;
+    
+}
+.checkbox input{
+    display: flex;
+    position: relative;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    margin: 0 12px 0 0;
+    padding: 0;
+    border: 1px solid #dbdbde;
+    border-radius: 4px;
+    outline: none;
+    background: #fff;
+    appearance: none;
+}
+.checkbox label{
+    color: #6e6d7a;
+    font: normal 14px/18px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+.checkbox label a{
+    color:#4f3cc9;
+    text-decoration: none;
+}
+.boton{
+    display: flex;
+}
+.boton input{
+    display: block;
+    width: 100%;
+    margin-top: 22px;
+    box-sizing: border-box;
+    height: 40px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background: #ea4c89;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #fff;
+}  
+.container form p{
+    text-align: center;
+    margin: 20px 0 0;
+    color: #000;
+    font: normal 14px/20px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+} 
+.container form p a{
+    color:#4f3cc9;
+    text-decoration: none;
+}
+.container form p.captcha{
+    max-width: 300px;
+    color: #9e9ea7;
+    font: normal 11px/16px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align:start;
+}
