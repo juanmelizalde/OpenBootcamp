@@ -1,6 +1,10 @@
+html{
+    background-color: #161717;
+}
 main{
     margin: 0 auto;
     padding: 0 20px;
+   
     
 }
 .container{
@@ -12,6 +16,7 @@ main{
 h2{
     margin-bottom: 26px;
     font: bold 24px/29px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#9e9ea7;
 }
 .continuar{
     display: flex;
@@ -62,7 +67,7 @@ hr:after {
       position: relative;
       top: -7px;
       padding: 0 16px;
-      background: #fff;
+      background: #161717;
       font: normal 14px/14px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   .btn__tiwter{
@@ -105,14 +110,14 @@ hr:after {
 .texbox label{
     display: block;
     margin: 14px 0 4px;
-    color: #000000;
+    color: #9e9ea7;
     font: bold 15px/24px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .texbox label input{
     width: 85%;
     height: 18px;
     padding: 10px 16px;
-    background-color:#f3f3f4;
+    background-color:#212121;
     border-radius: 10px;
     border:none;
     outline: none;
@@ -124,7 +129,7 @@ hr:after {
      background-color:white;
 }
 .texbox label input:hover{
-    background-color:white;
+    background-color:#454045;
     box-shadow:1px 1px 8px 3px #f5e7e7;
 }
 .mail{
@@ -144,7 +149,7 @@ hr:after {
 .mail label{
     display: block;
     margin: 14px 0 4px;
-    color: #000000;
+    color: #9e9ea7;
     font: bold 15px/24px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
     width: 100%;
 }
@@ -153,7 +158,7 @@ hr:after {
     margin-right: 8px;
     height: 18px;
     padding: 10px 16px;
-    background-color:#f3f3f4;
+    background-color:#212121;
     border-radius: 10px;
     border:none;
     outline: none;
@@ -171,7 +176,7 @@ hr:after {
     background-color:white;
 }
 .mail label input:hover{
-   background-color:white;
+   background-color:#454045;
    box-shadow:1px 1px 8px 3px #f5e7e7;
 }
 .checkbox {
@@ -231,7 +236,7 @@ hr:after {
 .container form p{
     text-align: center;
     margin: 20px 0 0;
-    color: #000;
+    color: #9e9ea7;
     font: normal 14px/20px "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
 } 
 .container form p a{
