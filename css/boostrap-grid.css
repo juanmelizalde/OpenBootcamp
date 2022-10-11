@@ -1,0 +1,20 @@
+.col-sm {
+  background-color: cornflowerblue;
+  border: 1px solid rgb(0, 0, 0);
+  height: 100px;
+}
+.col-md {
+  background-color: cyan;
+  border: 1px solid rgb(0, 0, 0);
+  height: 100px;
+}
+.col-lg {
+  background-color: darkcyan;
+  border: 1px solid rgb(0, 0, 0);
+  height: 100px;
+}
+.col-xl {
+  background-color: dodgerblue;
+  border: 1px solid rgb(0, 0, 0);
+  height: 100px;
+}
